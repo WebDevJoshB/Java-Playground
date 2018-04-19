@@ -1,11 +1,15 @@
-import java.awt.*;
+// import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Joshua");
+        // System.out.println("Hello World");
+        // System.out.println("Joshua");
+        String userInput = "entertainment";
+        String uppercased = userInput.toUpperCase();
 
-        Car myCar = new Car(25.5,
+        System.out.println(uppercased);
+
+/*        Car myCar = new Car(25.5,
                 "1BC32E",
                 Color.BLUE,
                 true);
@@ -21,5 +25,6 @@ public class Main {
         System.out.println(myCar.paintColor);
         myCar.changePaintColor(Color.RED);
         System.out.println(myCar.paintColor);
+*/
     }
 }
